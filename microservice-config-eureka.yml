@@ -18,7 +18,8 @@ eureka:
     fetchRegistry: false 
     serviceUrl: 
       defaultZone: http://eureka6001.com:6001/eureka/ 
-  server: enable-self-preservation: false # 禁用自我保护机制***************** 
+  server: 
+    enable-self-preservation: false # 禁用自我保护机制***************** 
 --- 
 server: 
   port: 6001 #端口号 
